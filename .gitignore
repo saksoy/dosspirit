@@ -7,7 +7,9 @@
 /app/webroot/images/news
 /app/webroot/music
 /app/webroot/video
+!/build
 /plugins
 /vendors
 .DS_Store
 tags
+Thumbs.db
