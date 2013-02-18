@@ -1,0 +1,57 @@
+/* Featured Content Slideshow */
+ul.slideshow {
+    list-style: none;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+ul.slideshow li {
+    position: absolute;
+}
+
+ul.slideshow ul li {
+    position: relative;
+}
+
+/* Set the element width to span entire container */
+ul.slideshow li {
+    width: 100%;
+}
+
+ul.featuredTabs li {
+    padding: 4px;
+    height: 46px;
+    margin-bottom: 25px;
+}
+
+ul.featuredTabs li:hover {
+    border-radius: 2px;
+    border-bottom: 2px solid #1F70A2;
+}
+
+.tabselected { border-bottom: 2px solid #000; }
+
+/* Gallery Slideshow */
+ul.slideshow-gallery {
+    list-style: none;
+    width: 320px;
+    height: 290px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.slideshow-gallery li {
+    position: absolute;
+}
+
+div.galleryImageContainer {
+    height: 200px;
+    width: 320px;
+    overflow: hidden;
+}

@@ -1,0 +1,8 @@
+div.searchTypeContainer { 
+    float: left;
+    width: 200px;
+ }
+ 
+div.searchTypeContainer li {
+    margin-right: 5px;
+}

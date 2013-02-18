@@ -1,0 +1,123 @@
+/** Review **/
+div.reviewLeftColumn {
+	float: left;
+	width: 640px;
+	text-align: justify;
+}
+
+div.reviewRightColumn {
+	float: right;
+	width: 340px;
+}
+
+section.media {
+	text-align: center;
+}
+
+section.media a img {
+	padding: 5px;
+	box-shadow: 0 0 10px #999;
+	border-radius: 0 10px;
+	margin-bottom: 10px;
+	margin: 5px;
+}
+
+section.gameReview {
+	margin-top: 10px;
+}
+
+menu.gameTabs img {
+	float: left;
+	margin-right: 5px;
+}
+
+aside.reviewAuthor {
+	width: 110px;
+	padding: 5px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	background-color: #FFF;
+	text-align: center;
+}
+
+aside.reviewAuthor img { border-radius: 10px; }
+
+div.rating {
+	padding: 2px;
+	margin-bottom: 2px;
+}
+
+div.rating img {
+	margin-right: 10px;
+}
+
+span.goldenDosSpirit {
+	background: url('/images/icon/golden-dos-spirit-ribbon.png') top right no-repeat transparent;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: 0;
+	right: 0;
+}
+
+div.gameScore {
+	width: 320px;
+	margin: 0 auto;
+}
+
+article.gameReviewArticle { 
+    width: 100%;
+}
+
+div.reviewScoreBox {
+	width: 44%;
+	float: left;
+	text-align: center;
+	padding: 10px 0;
+	margin: 10px;
+}
+
+div.reviewScoreBox, div.reviewScoreBox a {
+    color: #FFF;
+}
+
+.score-0 {
+    background-color: #222;
+}
+
+.score-1, .score-2 {
+	background-color: #CE1902;
+	/* background-color: 1B5D77 tint teal blue */
+}
+
+.score-3,.score-4 {
+	background-color: #ff920a;
+}
+
+.score-5,.score-6 {
+	background-color: #58B912;
+}
+
+div.reviewScoreBox div {
+    font-family: Oxygen, Arial;
+	font-size: 4.5em;
+	padding: 15px 0;
+}
+
+.gameTabs {
+	margin-top: 5px;
+}
+.gameTabs li {
+	padding: 5px;
+}
+
+.gameTabs li:hover, .tabSelected {
+	box-shadow: inset 2px 2px 2px #ddd;
+	color: #000;
+	cursor: pointer;
+}
+
+section.tabActive {
+    display: block;
+}

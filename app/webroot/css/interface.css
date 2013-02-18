@@ -1,0 +1,106 @@
+/*  The DOS Spirit Version 8 Codename: Faraday CSS 
+ *  Interface/GUI Styles
+ *  Copyright The DOS Spirit Foundation. Author: Bakkelun 
+ */
+.button {
+    background-color: #222;
+    color: #fff;
+    display: inline-block;
+    margin: 0 5px 8px 0;
+    padding: 4px 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #999;
+
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.button a { 
+    color: #fff;
+}
+
+.button:hover a {
+    color: #000;
+}
+
+.button img {
+    padding-right: 5px;
+}
+
+.socialButton a {
+  padding: 5px 5px 5px 0;
+
+}
+
+.socialButton img {
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+
+.roundedCorner, .roundedCorner li {
+    border-radius: 5px;
+}
+
+.defaultShadow, .defaultShadowList li {
+    box-shadow: 0 0 8px 4px #ddd;
+}
+
+.selectbox {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #222;
+}
+
+.detailBox {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+.tab {
+    display: none;
+}
+
+.tabactive {
+    display: block;
+}
+
+.generalButton {
+    background-color: #222;
+    color: #fff;
+    display: inline-block;
+    margin: 0 5px 8px 0;
+    padding: 4px 5px;
+}
+
+.generalButton a { display: block; color: #fff; }
+.generalButton:hover > a { color: #222; }
+
+.generalButton:hover {
+    box-shadow: 0 0 2 0 #999;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.modal {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    opacity: 0.9;
+    height: 500px;
+    overflow: auto;
+    width: 80%;
+    padding: 5px 10px;
+    border: 2px solid #222;
+    display: none;
+    z-index: 1;
+    margin: 10px;
+}

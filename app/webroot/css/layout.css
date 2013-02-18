@@ -1,0 +1,91 @@
+/*  The DOS Spirit Version 8 Codename: Faraday CSS 
+ *  Layout styles
+ *  Copyright The DOS Spirit Foundation. Author: Bakkelun 
+*/
+body, html {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    background: url('/images/bg.png') top center no-repeat #fff;
+}
+
+div#page {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+/* The content container */
+div.content {
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+
+
+div.contentLeft {
+    width: 640px;
+    float: left;
+}
+
+div.contentRight {
+    width: 360px;
+    float: right;
+}
+
+section {
+    clear: both;
+}
+
+footer {
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 10px 12px 1px #999;
+    clear: both;
+    color: #222;
+    padding: 10px;
+    text-align: center;
+
+}
+
+div.network {
+    width: 100%;
+    background: rgba(255,255,255, 0.5);
+}
+
+div.center-wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+div.header {
+    padding-top: 30px;
+    height: 130px;
+}
+
+div.socialInteractions { 
+    float: right; 
+
+}
+
+
+
+div.googlead.horizontal {
+    text-align: center;
+    padding: 10px 0;
+}
+
+div.googlead.vertical {
+    padding: 10px;
+}
+
+.contentColumn {
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+}
+
+.frontGameListContainer img {
+    width: 320px;
+    height: 120px;
+    overflow: hidden;
+}

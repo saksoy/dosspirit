@@ -1,0 +1,108 @@
+/* Core Editor */
+.markItUp .bold a	{
+	background-image:url(/images/icon/markitup/bold.png);
+}
+.markItUp .italic a	{
+	background-image:url(/images/icon/markitup/italic.png);
+}
+.markItUp .underline a	{
+	background-image:url(/images/icon/markitup/underline.png);
+}
+
+.markItUp .picture a	{
+	background-image:url(/images/icon/markitup/picture.png);
+}
+.markItUp .link a	{
+	background-image:url(/images/icon/markitup/link.png);
+}
+
+.markItUp .font a	{
+	background-image:url(/images/icon/markitup/font.png);
+}
+.markItUp .listbullet a	{
+	background-image:url(/images/icon/markitup/list-bullet.png);
+}
+.markItUp .listnumeric a	{
+	background-image:url(/images/icon/markitup/list-numeric.png);
+}
+.markItUp .listitem a	{
+	background-image:url(/images/icon/markitup/list-item.png);
+}
+
+.markItUp .quote a	{
+	background-image:url(/images/icon/markitup/quotes.png);
+}
+.markItUp .code a	{
+	background-image:url(/images/icon/markitup/code.png);
+}
+	
+.markItUp .clean a {
+	background-image:url(/images/icon/markitup/clean.png);
+}
+.markItUp .preview a {
+	background-image:url(/images/icon/markitup/preview.png);
+}
+
+/* Quick save and load */
+
+.markItUp .save a {
+	background-image:url(/images/icon/markitup/disk-save.png);
+}
+.markItUp .load a {
+	background-image:url(/images/icon/markitup/disk-load.png);
+}
+
+/* Colors */
+.markItUp .colors > a { 
+	background-image:url(/images/icon/markitup/colors.png);
+}
+	.markItUp .colors ul {
+		width:81px;
+		padding:1px;	
+	}
+	
+	.markItUp .colors  li {
+		border:1px solid white;
+		width:25px;	height:25px;
+		overflow:hidden;
+		padding:0px; margin:0px;
+		float:left;
+	}
+	
+	.markItUp .colors ul a {
+		width:25px;	height:25px;
+	}
+	
+	.markItUp .colors ul a:hover {
+		background-color:none;
+	}
+	
+	.markItUp .colors .yellow a {
+		background-color:yellow;
+	}
+	.markItUp .colors .orange a {
+		background-color:orange;
+	}
+	.markItUp .colors .red a {
+		background-color:red;
+	}
+	
+	.markItUp .colors .blue a {
+		background-color:blue;
+	}
+	.markItUp .colors .purple a {
+		background-color:purple;
+	}
+	.markItUp .colors .green a {
+		background-color:green;
+	}
+	
+	.markItUp .colors .white a {
+		background-color:white;
+	}
+	.markItUp .colors .gray a {
+		background-color:gray;
+	}
+	.markItUp .colors .black a {
+		background-color:black;
+	}

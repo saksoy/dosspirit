@@ -1,0 +1,88 @@
+/*  The DOS Spirit Version 8 Codename: Faraday CSS 
+ *  Admin only styles
+ *  Copyright The DOS Spirit Foundation. Author: Bakkelun 
+*/
+ul.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+ul.navigation li {
+    padding: 5px;
+
+    border-radius: 10px;
+    background-color: #efefef;
+}
+
+.contentColumn {
+    float: left;
+    width: 50%;
+}
+
+form#UserLoginForm input {
+    padding: 2px;
+}
+
+/* Add media section */
+ul.mediaList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.mediaList li {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    /*width: 300px;
+    border: 1px solid #ccc;*/
+}
+
+/* General styling for all select boxes */
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+/* Icon classes in admin are small images usually added via Javascript like add or remove */
+.icon {
+    margin-left: 15px;
+}
+
+div.dashBoard .columnLeft, div.dashBoard .columnRight {
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+}
+
+ul.inboxList li {
+}
+
+.green {
+	background-color: #6AFF44;
+}
+
+.orange {
+	background-color: #FF961E;
+}
+
+.red  {
+	background-color: #FF2D22;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.pointer:hover {
+	background-color: #222;
+	color: #fff;
+}
+
+/* Used as indicator to display an items publish status */
+div.itemStatus { height: 20px; width: 20px; float: right; }

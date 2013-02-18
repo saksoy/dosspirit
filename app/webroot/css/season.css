@@ -1,0 +1,29 @@
+/* Season Featured Entries Override CSS */
+div.ingressContainer, div.focusContainer {
+    width: 97%;
+    height: auto;
+}
+
+div.ingressContainer img {
+    width: 100%;
+}
+
+ul.featuredTabs li:hover {
+    border-radius: 2px;
+    border-bottom: 4px solid #1F70A2;
+}
+
+.tabselected { border-bottom: 4px solid #000; }
+
+ul.slideshow {
+    height: 560px;
+}
+
+ul.featuredTabs li {
+    padding: 3px;
+}
+
+h1.seasonHeading {
+    font-size: 40px;
+    text-align: center;
+}

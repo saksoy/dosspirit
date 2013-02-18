@@ -1,0 +1,68 @@
+div.ingressContainer, div.focusContainer {
+    width: 600px;
+    height: 215px;
+    overflow: hidden;
+    padding: 5px;
+    margin: 0 auto 5px;
+    text-align: center;
+    position: relative;
+}
+
+div.ingressContainer { margin: 0 auto 5px; }
+div.ingressContainer img { margin-bottom: -5px;}
+
+div.focusContainer {
+    width: 320px;
+    height: 120px;
+}
+
+div.popularTitleContainer img {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+
+div.gameCard span {
+    background-color: #fff;
+}
+
+.overlay  {
+    padding: 2px;
+    position: absolute;
+    z-index: 10;
+}
+
+/* Most useful when used in conjunction with overlays or other absolutes for standarized placement styling */
+.bottomRight {
+    bottom: 0;
+    right: 2px;
+}
+
+.bottomLeft {
+    bottom: 0;
+    left: 2px;
+}
+
+.topRight {
+    top: 0;
+    right: 4px;
+}
+
+div.clearer {
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}
+
+div.gameCardDetail {
+    padding: 5px 10px 10px 10px;
+    position: absolute;
+    background-color: #fff;
+    height: 150px;
+    width: 100%;
+    left: -5px;
+    top: 0;
+
+}

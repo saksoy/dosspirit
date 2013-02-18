@@ -1,0 +1,61 @@
+div.error-message {
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    clear: both;
+    padding: 2px 10px;
+}
+
+/** Notices and Errors **/
+div.message {
+    font-family: Oxygen;
+    font-size: 150%;
+    font-weight: bold;
+    color: #2D2D2D;
+    clear: both;
+    background-color: #D2F0FF;
+    border-radius: 4px;
+    padding: 0.8em;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+div.error {
+    background-color: #DB2543;
+    color: #fff;
+}
+
+div.ok {
+    background-color: #4BD824;
+    color: #fff;
+}
+
+p.error {
+	background-color: #e32;
+	color: #fff;
+	font-family: Courier, monospace;
+	font-size: 120%;
+	line-height: 140%;
+	padding: 0.8em;
+	margin: 1em 0;
+}
+
+p.error em {
+	color: #000;
+	font-weight: normal;
+	line-height: 140%;
+}
+
+.notice {
+	background: #ffcc00;
+	color: #000;
+	display: block;
+	font-family: Courier, monospace;
+	font-size: 120%;
+	line-height: 140%;
+	padding: 0.8em;
+	margin: 1em 0;
+}
+
+.form-error { border: 1px solid red; margin: 1px; }

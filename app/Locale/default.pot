@@ -1,0 +1,1144 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright 2012 bakkelun <bakkelun@gmail.com>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1\n"
+"POT-Creation-Date: 2012-09-02 01:40+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller\AdminController.php:73
+msgid "Invalid username or password"
+msgstr ""
+
+#: Controller\AdminController.php:137
+msgid "%s media files was/were approved and you got %s experience for approving them. Check your inbox for more details."
+msgstr ""
+
+#: Controller\AdminController.php:216
+msgid "Could not update avatar."
+msgstr ""
+
+#: Controller\AdminController.php:223
+msgid "Profile updated"
+msgstr ""
+
+#: Controller\AdminController.php:256
+msgid "Review for %s was updated and saved."
+msgstr ""
+
+#: Controller\AdminController.php:259
+msgid "Saving of review failed."
+msgstr ""
+
+#: Controller\AdminController.php:337
+msgid "Game was updated."
+msgstr ""
+
+#: Controller\AdminController.php:406
+msgid "No user found with this email address"
+msgstr ""
+
+#: Controller\AdminController.php:431
+msgid "Account password updated!"
+msgstr ""
+
+#: Controller\AdminController.php:442
+msgid "The password must be repeated correctly twice."
+msgstr ""
+
+#: Controller\AdminController.php:448
+msgid "Invalid request data provided."
+msgstr ""
+
+#: Controller\AdminController.php:536
+msgid "Congratulations, your user account has been activated!"
+msgstr ""
+
+#: Controller\AdminController.php:539
+msgid "Update failed. Please send us a debug mail regarding this."
+msgstr ""
+
+#: Controller\AdminController.php:649;671
+msgid "Could not upload file: \"%s\"."
+msgstr ""
+
+#: Controller\AdminController.php:688
+msgid "The file \"%s\" has an invalid extension."
+msgstr ""
+
+#: Controller\AdminController.php:698
+msgid "%s media files were added. You got %s experience points."
+msgstr ""
+
+#: Controller\AdminController.php:807
+msgid "%s was added."
+msgstr ""
+
+#: Controller\AdminController.php:814
+msgid "Saving game failed."
+msgstr ""
+
+#: Controller\AdminController.php:941
+msgid "You are now logged out. See you soon!"
+msgstr ""
+
+#: Controller\AjaxController.php:72
+msgid "You rated this title with a %s. Thanks!"
+msgstr ""
+
+#: Controller\AjaxController.php:92
+msgid "Game was added to your personal collection."
+msgstr ""
+
+#: Controller\AjaxController.php:94
+msgid "Adding to collection failed. Report this to bakkelun@gmail.com."
+msgstr ""
+
+#: Controller\AjaxController.php:98
+msgid "You already have this game in your personal collection."
+msgstr ""
+
+#: Controller\AjaxController.php:101
+msgid "You need to login before adding a game to your personal collection."
+msgstr ""
+
+#: Controller\AjaxController.php:107
+msgid "likes"
+msgstr ""
+
+#: Controller\AjaxController.php:110
+msgid "owns"
+msgstr ""
+
+#: Controller\AjaxController.php:113
+msgid "played"
+msgstr ""
+
+#: Controller\AjaxController.php:116
+msgid "want"
+msgstr ""
+
+#: Controller\AjaxController.php:119
+msgid "Not a valid game reputation type."
+msgstr ""
+
+#: Controller\AjaxController.php:123
+msgid "You marked that you %s this game."
+msgstr ""
+
+#: Controller\AjaxController.php:150
+msgid "You have already marked this game as \"%s\"."
+msgstr ""
+
+#: Controller\DownloadController.php:22
+msgid "Hotlinking to files is not allowed. For sharing links, please use the link to this page."
+msgstr ""
+
+#: Controller\DownloadController.php:59
+msgid "Files beyond 10Mb requires login. You can login or register an account here %s."
+msgstr ""
+
+#: Controller\DownloadController.php:63
+msgid "We could not find anything on that URI. You should probably double check it."
+msgstr ""
+
+#: Controller\DownloadController.php:68
+msgid "Invalid game entry."
+msgstr ""
+
+#: Controller\DownloadController.php:74
+msgid "Download error"
+msgstr ""
+
+#: Controller\GameController.php:53
+#: View\Elements\admin_game_listing.ctp:16
+msgid "This game was published on %s."
+msgstr ""
+
+#: Controller\GameController.php:55
+#: View\Elements\admin_game_listing.ctp:19
+msgid "This game will be published %s. You can preview it in the mean time."
+msgstr ""
+
+#: Controller\GameController.php:59
+#: View\Elements\admin_add_review_listing.ctp:24
+#: View\Elements\admin_game_listing.ctp:28
+msgid "This game has been set to inactive and can not be accessed by the public. You can preview it though."
+msgstr ""
+
+#: Controller\GameController.php:61
+#: View\Elements\admin_add_review_listing.ctp:21
+#: View\Elements\admin_game_listing.ctp:33
+msgid "This game is active and can be accessed."
+msgstr ""
+
+#: Controller\GameController.php:66
+msgid "Preview of %s"
+msgstr ""
+
+#: Controller\GameController.php:70
+msgid "Goblins not found. Er, we could not dig up the game you were looking for."
+msgstr ""
+
+#: Controller\GameController.php:114
+msgid "Review of %s"
+msgstr ""
+
+#: Controller\SearchController.php:57
+#: View\Search\index.ctp:48
+msgid "Game series"
+msgstr ""
+
+#: Controller\SearchController.php:73
+#: View\Search\index.ctp:21
+msgid "Category"
+msgstr ""
+
+#: Controller\SearchController.php:91
+#: View\Search\index.ctp:30
+msgid "Platform"
+msgstr ""
+
+#: Controller\SearchController.php:95
+msgid "Invalid platform: \"%s\"."
+msgstr ""
+
+#: Controller\SearchController.php:105
+msgid "Year must be numeric."
+msgstr ""
+
+#: Controller\SearchController.php:108
+msgid "Years must have four digits and be between year %s and %s."
+msgstr ""
+
+#: Controller\SearchController.php:113
+#: View\Search\index.ctp:57
+msgid "Year"
+msgstr ""
+
+#: Controller\SearchController.php:208
+msgid "Search term must be longer than %s characters."
+msgstr ""
+
+#: Controller\SearchController.php:225
+msgid "Invalid company type: \"%s\"."
+msgstr ""
+
+#: Controller\SearchController.php:232
+msgid "Publisher and/or Developer"
+msgstr ""
+
+#: Controller\SearchController.php:237
+msgid "as %s."
+msgstr ""
+
+#: Controller\SearchController.php:243
+#: View\Search\index.ctp:39
+msgid "Company"
+msgstr ""
+
+#: Controller\SearchController.php:255
+msgid "Invalid search type: \"%s\"."
+msgstr ""
+
+#: Controller\Component\CommonFunctionsComponent.php:148
+msgid "Ingress image has invalid image format: \"%s\""
+msgstr ""
+
+#: Controller\Component\CommonFunctionsComponent.php:159
+msgid "Could not upload focus image."
+msgstr ""
+
+#: Controller\Component\CommonFunctionsComponent.php:164
+msgid "Focus image has invalid image format: \"%s\""
+msgstr ""
+
+#: Controller\Component\CommonFunctionsComponent.php:190
+msgid "Image has invalid image format: \"%s\""
+msgstr ""
+
+#: View\Admin\activate.ctp:2
+msgid "Activate my account"
+msgstr ""
+
+#: View\Admin\activate.ctp:3
+msgid "Paste your activation code below from the account creation email. Or, simply follow the link in that email."
+msgstr ""
+
+#: View\Admin\add_game.ctp:42
+#: View\Admin\edit_game.ctp:46
+msgid "Write the game name here"
+msgstr ""
+
+#: View\Admin\add_game.ctp:49
+msgid "Add general game information like \"this is a side scrolling platformer featuring yellow monsters\". This is not the review! You can add reviews to a game from the admin section, after the game entry has been added."
+msgstr ""
+
+#: View\Admin\add_game.ctp:81;131;136
+#: View\Admin\edit_game.ctp:88;169;175
+msgid "No"
+msgstr ""
+
+#: View\Admin\add_game.ctp:81;131;136
+#: View\Admin\edit_game.ctp:88;169;175
+msgid "Yes"
+msgstr ""
+
+#: View\Admin\add_media.ctp:125
+msgid "NUMBER_OF_FILES"
+msgstr ""
+
+#: View\Admin\add_news.ctp:2
+msgid "Add news"
+msgstr ""
+
+#: View\Admin\add_news.ctp:10
+msgid "News heading"
+msgstr ""
+
+#: View\Admin\add_news.ctp:13
+msgid "News text"
+msgstr ""
+
+#: View\Admin\add_news.ctp:15
+msgid "News image"
+msgstr ""
+
+#: View\Admin\add_review.ctp:24
+msgid "Add review for %s"
+msgstr ""
+
+#: View\Admin\add_review.ctp:35
+msgid "Publish date"
+msgstr ""
+
+#: View\Admin\add_review.ctp:45
+msgid "Publication status"
+msgstr ""
+
+#: View\Admin\add_review.ctp:47
+msgid "Review is written in this language"
+msgstr ""
+
+#: View\Admin\add_review.ctp:49
+#: View\Admin\edit_review.ctp:53
+msgid "Review teaser text"
+msgstr ""
+
+#: View\Admin\add_review.ctp:51
+#: View\Admin\edit_review.ctp:55
+msgid "Review text"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:5
+msgid "Hover over links to get tooltips displayed here."
+msgstr ""
+
+#: View\Admin\dashboard.ctp:9;23
+msgid "Add new game entry"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:10;24
+msgid "Edit an existing game entry"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:11
+msgid "Add various media like screenshots that can be used by anyone when adding games"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:12
+msgid "Edit my profile"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:13
+msgid "Add your own user review of a game from the database"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:25
+msgid "Add new game serie"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:27
+msgid "Add new review for an existing game"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:28
+msgid "Edit an existing review"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:30
+msgid "Add new news story"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:31
+msgid "Edit existing news story"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:37
+msgid "Add new poll"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:38
+msgid "Site statistics breakdown"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:39
+msgid "Configure things like editors choice on the frontpage, amogst other things"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:40
+msgid "Add new companies (developers, publishers etc.) that can be used when adding or editing games"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:42
+msgid "Administrate uploaded media"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:43
+msgid "Overview of user accounts, who has activated their account and more"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:44
+msgid "Handle approval of user submitted reviews"
+msgstr ""
+
+#: View\Admin\dashboard.ctp:45
+msgid "Manage videos like uploading or attaching existing files to game entries"
+msgstr ""
+
+#: View\Admin\edit_game.ctp:3
+msgid "Preview how the game looks now"
+msgstr ""
+
+#: View\Admin\edit_game.ctp:52
+msgid "Add general game information like \"this is a side scrolling platformer featuring yellow monsters\". This is not the review!"
+msgstr ""
+
+#: View\Admin\edit_game.ctp:153
+msgid "Current ingress image:"
+msgstr ""
+
+#: View\Admin\edit_game.ctp:157
+msgid "Focus image"
+msgstr ""
+
+#: View\Admin\edit_game.ctp:158
+msgid "Current focus image:"
+msgstr ""
+
+#: View\Admin\edit_game.ctp:193
+msgid "Media attached to this game"
+msgstr ""
+
+#: View\Admin\edit_game.ctp:197
+msgid "Attach new media to this game"
+msgstr ""
+
+#: View\Admin\edit_game.ctp:204
+msgid "You can preview the game after you have saved the changes."
+msgstr ""
+
+#: View\Admin\edit_review.ctp:24
+#: View\Elements\main_navigation.ctp:24
+msgid "Add review"
+msgstr ""
+
+#: View\Admin\edit_review.ctp:40
+msgid "Edit review for \"%s\""
+msgstr ""
+
+#: View\Admin\edit_review.ctp:50
+msgid "Review publication status"
+msgstr ""
+
+#: View\Admin\edit_review.ctp:60
+msgid "This review is written in this language"
+msgstr ""
+
+#: View\Admin\forgot_password.ctp:9
+msgid "Password reset instructions have been sent to the provided email address. Check your inbox!"
+msgstr ""
+
+#: View\Admin\profile.ctp:2
+msgid "%s's profile"
+msgstr ""
+
+#: View\Admin\profile.ctp:6
+msgid "Account created"
+msgstr ""
+
+#: View\Admin\profile.ctp:7
+msgid "Account activated"
+msgstr ""
+
+#: View\Admin\profile.ctp:8
+msgid "Email"
+msgstr ""
+
+#: View\Admin\profile.ctp:9
+msgid "Experience points"
+msgstr ""
+
+#: View\Admin\profile.ctp:11
+msgid "Experience needed to next level"
+msgstr ""
+
+#: View\Admin\profile.ctp:14
+msgid "Achievements"
+msgstr ""
+
+#: View\Admin\profile.ctp:22
+msgid "Location"
+msgstr ""
+
+#: View\Admin\profile.ctp:24
+msgid "Name"
+msgstr ""
+
+#: View\Admin\profile.ctp:27
+msgid "Current avatar"
+msgstr ""
+
+#: View\Admin\profile.ctp:31
+msgid "Upload avatar image"
+msgstr ""
+
+#: View\Admin\register.ctp:2
+msgid "Register account"
+msgstr ""
+
+#: View\Admin\reset_password.ctp:2
+msgid "Reset password"
+msgstr ""
+
+#: View\Admin\reset_password.ctp:6
+msgid "New password"
+msgstr ""
+
+#: View\Admin\reset_password.ctp:7
+msgid "Repeat password"
+msgstr ""
+
+#: View\Admin\reset_password.ctp:10
+msgid "Change password"
+msgstr ""
+
+#: View\Contact\index.ctp:2
+msgid "Contact us"
+msgstr ""
+
+#: View\Contact\index.ctp:5
+msgid "Thank you. The goblins will look at it shortly."
+msgstr ""
+
+#: View\Contact\index.ctp:7
+msgid "Like what we do? Something amiss or gone horribly wrong? Whatever the case, get in touch below."
+msgstr ""
+
+#: View\Contact\index.ctp:19
+msgid "Your name"
+msgstr ""
+
+#: View\Contact\index.ctp:21
+msgid "Your email, so we can contact you"
+msgstr ""
+
+#: View\Contact\index.ctp:23
+msgid "Feedback"
+msgstr ""
+
+#: View\Contact\index.ctp:25
+msgid "* fields are required."
+msgstr ""
+
+#: View\Elements\admin_add_review_listing.ctp:2
+msgid "Add review for games"
+msgstr ""
+
+#: View\Elements\admin_add_review_listing.ctp:27
+msgid "This game will be published %s"
+msgstr ""
+
+#: View\Elements\admin_game_listing.ctp:1
+msgid "Recent games you have added"
+msgstr ""
+
+#: View\Elements\admin_game_listing.ctp:25
+msgid "This game is set to active."
+msgstr ""
+
+#: View\Elements\admin_game_listing.ctp:48
+#: View\Elements\admin_review_listing.ctp:37
+msgid "Edit %s"
+msgstr ""
+
+#: View\Elements\admin_game_listing.ctp:49
+msgid "Preview %s"
+msgstr ""
+
+#: View\Elements\admin_review_listing.ctp:2
+msgid "Reviews you have written"
+msgstr ""
+
+#: View\Elements\admin_review_listing.ctp:16
+msgid "This review has a publish date which is passed, but will not be published because it is in draft."
+msgstr ""
+
+#: View\Elements\admin_review_listing.ctp:19
+msgid "This review was published on %s"
+msgstr ""
+
+#: View\Elements\admin_review_listing.ctp:25
+msgid "This review is in draft and will not be shown until you publish it."
+msgstr ""
+
+#: View\Elements\admin_review_listing.ctp:27
+msgid "This review will be published %s"
+msgstr ""
+
+#: View\Elements\attachedMediaList.ctp:16
+msgid "There are %s attached media files."
+msgstr ""
+
+#: View\Elements\attachedMediaList.ctp:35
+#: View\Elements\mediaList.ctp:49
+msgid "Bigger preview"
+msgstr ""
+
+#: View\Elements\default_pagination_markup.ctp:4
+#: View\News\view.ctp:14
+msgid "Previous"
+msgstr ""
+
+#: View\Elements\default_pagination_markup.ctp:5
+#: View\News\view.ctp:22
+msgid "Next"
+msgstr ""
+
+#: View\Elements\default_pagination_markup.ctp:7
+msgid "Page %s of %s. Showing %s out of total %s. Starting at %s and ending on %s."
+msgstr ""
+
+#: View\Elements\featured_news.ctp:1
+msgid "Latest news"
+msgstr ""
+
+#: View\Elements\featured_news.ctp:17
+msgid "More news"
+msgstr ""
+
+#: View\Elements\featured_reviews.ctp:22
+#: View\Elements\game_card_small.ctp:4
+#: View\Game\view.ctp:32;136
+msgid "Developer"
+msgstr ""
+
+#: View\Elements\featured_reviews.ctp:23
+#: View\Elements\game_card_small.ctp:5
+#: View\Game\view.ctp:33;137
+msgid "Publisher"
+msgstr ""
+
+#: View\Elements\featured_reviews.ctp:30
+#: View\Game\view.ctp:140
+msgid "Visits"
+msgstr ""
+
+#: View\Elements\game_listing_cards.ctp:14
+#: View\Elements\standard_game_listing.ctp:14
+#: View\Elements\user_game_listing.ctp:9
+#: View\Elements\user_review_listing.ctp:9
+msgid "Focus image of %s"
+msgstr ""
+
+#: View\Elements\game_listing_cards.ctp:25
+#: View\Elements\standard_game_listing.ctp:15
+#: View\Game\view.ctp:206
+msgid "User rating"
+msgstr ""
+
+#: View\Elements\game_listing_cards.ctp:26
+#: View\Elements\standard_game_listing.ctp:16
+#: View\Game\view.ctp:208
+msgid "%s votes"
+msgstr ""
+
+#: View\Elements\game_listing_cards.ctp:27
+#: View\Elements\standard_game_listing.ctp:17
+#: View\Game\view.ctp:181
+msgid "Visits: %s"
+msgstr ""
+
+#: View\Elements\game_listing_cards.ctp:35
+#: View\Elements\standard_game_listing.ctp:25
+msgid "Nothing to display. Perhaps try a different search word or type?"
+msgstr ""
+
+#: View\Elements\game_reputation.ctp:4
+msgid "I like this game"
+msgstr ""
+
+#: View\Elements\game_reputation.ctp:8
+msgid "I have played this game"
+msgstr ""
+
+#: View\Elements\game_reputation.ctp:12
+msgid "I own this game"
+msgstr ""
+
+#: View\Elements\game_reputation.ctp:16
+msgid "I want this game"
+msgstr ""
+
+#: View\Elements\game_reputation.ctp:20
+msgid "Add to my collection"
+msgstr ""
+
+#: View\Elements\game_vote.ctp:1
+msgid "Rate this game"
+msgstr ""
+
+#: View\Elements\game_vote.ctp:3
+msgid "Choose a rating"
+msgstr ""
+
+#: View\Elements\game_vote.ctp:4
+msgid "Abysmal"
+msgstr ""
+
+#: View\Elements\game_vote.ctp:5
+msgid "Below average"
+msgstr ""
+
+#: View\Elements\game_vote.ctp:6
+msgid "Ok"
+msgstr ""
+
+#: View\Elements\game_vote.ctp:7
+msgid "Good"
+msgstr ""
+
+#: View\Elements\game_vote.ctp:8
+msgid "Very good"
+msgstr ""
+
+#: View\Elements\game_vote.ctp:9
+msgid "Superb!"
+msgstr ""
+
+#: View\Elements\inbox.ctp:8
+msgid "You added a media file"
+msgstr ""
+
+#: View\Elements\inbox.ctp:12
+msgid "You added a review"
+msgstr ""
+
+#: View\Elements\inbox.ctp:16
+msgid "You added a video"
+msgstr ""
+
+#: View\Elements\inbox.ctp:20
+msgid "You accepted a media file"
+msgstr ""
+
+#: View\Elements\inbox.ctp:24
+msgid "Your media file was accepted"
+msgstr ""
+
+#: View\Elements\inbox.ctp:28
+msgid "You added a user review"
+msgstr ""
+
+#: View\Elements\inbox.ctp:32
+msgid "You accepted a user review"
+msgstr ""
+
+#: View\Elements\inbox.ctp:36
+msgid "Your media file was rejected"
+msgstr ""
+
+#: View\Elements\inbox.ctp:47
+msgid "Experience rewarded %s points."
+msgstr ""
+
+#: View\Elements\language_select.ctp:3
+msgid "Choose language"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:6
+#: View\Helper\HtmlHelper.php:731
+msgid "Home"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:7
+#: View\News\index.ctp:2
+msgid "News"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:8
+msgid "Games"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:9
+#: View\Main\index.ctp:31
+msgid "Random game"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:10
+msgid "Search"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:11
+msgid "Articles"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:12
+msgid "Contact"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:18
+#: View\Layouts\admin.ctp:64
+msgid "Dashboard"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:19
+msgid "Inbox (%s)"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:20
+msgid "My profile"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:21
+msgid "My achievements"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:22
+msgid "Add game"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:23
+msgid "Add media"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:25
+msgid "Edit game"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:26
+msgid "Edit review"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:27
+msgid "Logout"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:31
+msgid "Login"
+msgstr ""
+
+#: View\Elements\main_navigation.ctp:35
+msgid "Forum"
+msgstr ""
+
+#: View\Elements\mediaList.ctp:13
+msgid "Database contains %s media files."
+msgstr ""
+
+#: View\Elements\screenshot.ctp:20
+msgid "No images added yet. Why not help add some?"
+msgstr ""
+
+#: View\Elements\search_box.ctp:3
+msgid "Search for something"
+msgstr ""
+
+#: View\Elements\user_game_listing.ctp:14
+msgid "This user has not added any games yet."
+msgstr ""
+
+#: View\Elements\user_listing.ctp:10
+msgid "Level %s"
+msgstr ""
+
+#: View\Elements\user_listing.ctp:12
+msgid "%s points"
+msgstr ""
+
+#: View\Elements\user_news_listing.ctp:9
+msgid "This user has not added any news yet."
+msgstr ""
+
+#: View\Elements\user_review_listing.ctp:14
+msgid "This user has not added any reviews yet."
+msgstr ""
+
+#: View\Elements\validationErrors.ctp:3
+msgid "There are errors you need to look into!"
+msgstr ""
+
+#: View\Elements\validationErrors.ctp:9
+msgid "Error for field %s"
+msgstr ""
+
+#: View\Emails\html\activate_account.ctp:2
+msgid "Activate your account"
+msgstr ""
+
+#: View\Emails\html\activate_account.ctp:3
+msgid "Thanks for registering an account at The DOS Spirit!"
+msgstr ""
+
+#: View\Emails\html\activate_account.ctp:4
+msgid "To activate your account, please click the link below or copy and paste the link into your browser."
+msgstr ""
+
+#: View\Emails\html\activate_account.ctp:7
+msgid "If link does't show, copy this to your browser address field: %s"
+msgstr ""
+
+#: View\Emails\html\activate_account.ctp:9
+msgid "If you have not registered an account at The DOS Spirit or this email is unknown to you, simply ignore this request."
+msgstr ""
+
+#: View\Emails\html\forgot_password.ctp:2
+msgid "Forgot password"
+msgstr ""
+
+#: View\Emails\html\forgot_password.ctp:3
+msgid "Someone, hopefully you, have requested a password reset. Follow the link below if this is correct, otherwise ignore this request."
+msgstr ""
+
+#: View\Emails\html\password_changed.ctp:2
+msgid "Password changed successfully"
+msgstr ""
+
+#: View\Emails\html\password_changed.ctp:3
+msgid "Your password has been updated. You can now login to The DOS Spirit using your new password and continue contributing!"
+msgstr ""
+
+#: View\Emails\html\password_changed.ctp:4
+msgid "You can login by following this link"
+msgstr ""
+
+#: View\Errors\general_error.ctp:17
+msgid "If you feel this error is not your fault, feel free to %s contact us here %s."
+msgstr ""
+
+#: View\Game\view.ctp:36
+msgid "Series"
+msgstr ""
+
+#: View\Game\view.ctp:41;43
+msgid "Dosbox compability page"
+msgstr ""
+
+#: View\Game\view.ctp:49
+msgid "ScummVM compability page"
+msgstr ""
+
+#: View\Game\view.ctp:96;237
+msgid "Review"
+msgstr ""
+
+#: View\Game\view.ctp:101
+msgid "Author"
+msgstr ""
+
+#: View\Game\view.ctp:117
+msgid "No review available."
+msgstr ""
+
+#: View\Game\view.ctp:118
+msgid "Add a review"
+msgstr ""
+
+#: View\Game\view.ctp:122
+msgid "Game description"
+msgstr ""
+
+#: View\Game\view.ctp:127
+msgid "No game description available"
+msgstr ""
+
+#: View\Game\view.ctp:131;238
+msgid "Rap sheet"
+msgstr ""
+
+#: View\Game\view.ctp:133
+msgid "Game added"
+msgstr ""
+
+#: View\Game\view.ctp:134
+msgid "Game added by"
+msgstr ""
+
+#: View\Game\view.ctp:135
+msgid "Release year"
+msgstr ""
+
+#: View\Game\view.ctp:138
+msgid "Game mode"
+msgstr ""
+
+#: View\Game\view.ctp:139
+msgid "Age rating"
+msgstr ""
+
+#: View\Game\view.ctp:143
+msgid "Game entry history"
+msgstr ""
+
+#: View\Game\view.ctp:156
+msgid "Game compability"
+msgstr ""
+
+#: View\Game\view.ctp:160
+msgid "No compability data found"
+msgstr ""
+
+#: View\Game\view.ctp:161
+msgid "We have no data on how compatible this title is. Please refer to the list below for emulators on various platforms."
+msgstr ""
+
+#: View\Game\view.ctp:199
+msgid "Editor rating"
+msgstr ""
+
+#: View\Game\view.ctp:201
+msgid "Score summary"
+msgstr ""
+
+#: View\Game\view.ctp:219
+msgid "Game has not been reviewed yet, so no scores are available"
+msgstr ""
+
+#: View\Game\view.ctp:236
+msgid "Description"
+msgstr ""
+
+#: View\Game\view.ctp:239
+msgid "Compability"
+msgstr ""
+
+#: View\Game\view.ctp:240
+msgid "Report error"
+msgstr ""
+
+#: View\Game\view.ctp:241
+msgid "Comments"
+msgstr ""
+
+#: View\Game\view.ctp:245
+msgid "Download %s"
+msgstr ""
+
+#: View\Helper\CommonViewFunctionsHelper.php:95
+msgid "Been a member for %s days"
+msgstr ""
+
+#: View\Helper\CommonViewFunctionsHelper.php:97
+msgid "Been a member for %s years and %s days"
+msgstr ""
+
+#: View\Layouts\admin.ctp:61
+msgid "Level"
+msgstr ""
+
+#: View\Layouts\admin.ctp:61
+msgid "Experience to next level"
+msgstr ""
+
+#: View\Layouts\admin.ctp:65
+msgid "Log out"
+msgstr ""
+
+#: View\Main\index.ctp:17
+msgid "Editor's choice"
+msgstr ""
+
+#: View\Main\index.ctp:22
+msgid "Recently added games"
+msgstr ""
+
+#: View\Main\index.ctp:38
+msgid "Most active users"
+msgstr ""
+
+#: View\Main\index.ctp:41
+msgid "Newest members"
+msgstr ""
+
+#: View\Main\index.ctp:46
+msgid "Affiliates"
+msgstr ""
+
+#: View\Main\index.ctp:52
+msgid "Popular games"
+msgstr ""
+
+#: View\News\index.ctp:13
+msgid "Read more"
+msgstr ""
+
+#: View\Search\index.ctp:1
+msgid "Search engine"
+msgstr ""
+
+#: View\Search\index.ctp:17
+msgid "Choose your search type below"
+msgstr ""
+
+#: View\Search\search.ctp:2
+msgid "Search result"
+msgstr ""
+
+#: View\Search\search.ctp:3
+msgid "Back to search overview"
+msgstr ""
+
+#: View\Search\search.ctp:8
+msgid "Found %s results for type %s: \"%s\""
+msgstr ""
+
+#: View\Search\search.ctp:9
+msgid "Order by game name"
+msgstr ""
+
+#: View\Search\search.ctp:10
+msgid "Order by recently added"
+msgstr ""
+
+#: View\Search\search.ctp:11
+msgid "Order by game year"
+msgstr ""
+
+#: View\Search\search.ctp:12
+msgid "Order by popularity"
+msgstr ""
+
+#: View\User\index.ctp:10
+msgid "Recent games added by this user"
+msgstr ""
+
+#: View\User\index.ctp:18
+msgid "Recent reviews added by this user"
+msgstr ""
+
+#: View\User\index.ctp:24
+msgid "Recent news articles added by this user"
+msgstr ""
+
+#: View\Helper\FormHelper.php:1323
+msgid "empty"
+msgstr ""
+

@@ -1,0 +1,126 @@
+/*  The DOS Spirit Version 8 Codename: Faraday CSS
+ *  Formatting/Text Styles 
+ *  Copyright The DOS Spirit Foundation. Author: Bakkelun 
+ */
+@font-face {
+	font-family: NuvoWeb Medium;
+	src: url("/fonts/NuvoWeb-Medi.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+	font-family: NuvoWeb Medium;
+	src: url("/fonts/NuvoWeb-Medi.woff") format("woff");
+}
+
+@font-face {
+	font-family: Cicle Semi;
+	src: url("/fonts/Cicle-Semi.eot");
+}
+
+@font-face {
+	font-family: Cicle Semi;
+	src: url("/fonts/Cicle-Semi.woff") format("woff");
+}
+
+@font-face {
+	font-family: Sero;
+	src: url("/fonts/SeroScWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+	font-family: Oxygen;
+	src: url("http://themes.googleusercontent.com/static/fonts/oxygen/v1/RzoNiRR1p2Mqyyz2RwqSMw.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Sorts Mill Goudy';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Sorts Mill Goudy Regular'), local('SortsMillGoudy-Regular'), url('http://themes.googleusercontent.com/static/fonts/sortsmillgoudy/v1/JzRrPKdwEnE8F1TDmDLMUkQF8YaxoHnTBii2CPCdpvk.woff') format('woff');
+}
+
+
+body,html {
+	font: normal 12px/ 15pt Tahoma, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font: normal 30px Oxygen, Georgia, Tahoma, sans-serif;
+	color: #222;
+	margin: 5px 0;
+	padding: 0;
+
+}
+
+h1 {
+    background-color: rgba(43, 120, 179, 0.15);
+    color: #113849;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+h2 {
+	font-size: 25px;
+	padding: 5px 0;
+}
+
+h3 {
+	font-size: 22px;
+	padding: 5px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+
+a {
+	font: 700 12px/ 15pt Arial, sans-serif;
+	text-decoration: none;
+	underline: none;
+	color: #383434;
+}
+
+a:hover {
+	color: #1F70A2;
+	/*text-decoration: underline;*/
+}
+
+.fontSizeSmall {
+    font-size: 10px;
+    line-height: 12pt;
+}
+
+.fontSizeNormal {
+    font-size: 12px;
+}
+
+.fontSizeLarge {
+    font-size: 18px;
+    line-height: 20pt;
+}
+
+.subtextHeader {
+    padding: 5px 0;
+}
+
+.twoColumns {
+    -moz-column-count: 2;
+    -moz-column-gap: 2.5em;
+    -moz-column-rule: 1px solid #bbb;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2.5em;
+    -webkit-column-rule: 1px solid #ddd;
+    column-count: 2;
+    column-gap: 2.5em;
+}

@@ -1,0 +1,36 @@
+.autocomplete-w1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 8px 0 0 6px;
+    background: url(/images/shadow.png) no-repeat bottom right;
+}
+
+.autocomplete {
+	font-size: 14px;
+	background: #fff;
+	cursor: pointer;
+	text-align: left;
+
+	height: auto;
+	margin: -6px 6px 6px -6px;
+}
+
+.autocomplete a { display: block; }
+
+.autocomplete .selected {
+	background-color: #222;
+	color: #fff;
+}
+
+.autocomplete .selected a { color: #fff; }
+
+.autocomplete div {
+	white-space: nowrap;
+	padding: 5px;
+}
+
+.autocomplete strong {
+	font-weight: 700;
+	color: red;
+}

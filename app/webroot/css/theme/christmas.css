@@ -1,0 +1,50 @@
+body, html {
+    background: url('/images/bg-christmas.png') top center no-repeat #fff;
+}
+
+/* General buttons */
+.button, .generalButton {
+    background-color: #360930;
+}
+
+/* Main navigation color change */
+nav.mainNavigation li {
+    background-color: #360930;
+}
+
+/* Main navigation hover, selected */
+nav.mainNavigation li:hover, nav.mainNavigation li.selected, ul.subMenu li:hover {
+    background-color: #7B096E;
+}
+
+
+/* Links override */
+a {
+	color: #000;
+}
+
+a:hover, h1, h2, h3 {
+	color: #7B096E;
+}
+
+h1 {
+    background-color: rgba(123, 9, 110, 0.1);
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #7B096E;
+
+}
+
+/* Shadow override */
+.defaultShadow, .defaultShadowList li {
+    box-shadow: 0 0 8px 4px rgba(54, 9, 48, 0.2);
+}
+
+h1.calendarDay {
+    background: url('/images/icon/santa.png') 7% 10% no-repeat #360930;
+    color: #FFF;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 8px;
+}
