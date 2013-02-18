@@ -20,7 +20,7 @@ Prerequisities
 - xDebug
 - Patience *
 
-* = Needed
+Asterix = Needed
 
 Installation
 -----------
@@ -55,7 +55,7 @@ Build process is abit convoluted. It requires you to run the cakephp i18n shell 
 
 New locale updates to the application must checked in and done through pull requests. Then uploaded to Crowdin via the project's admin, bakkelun. Newly generated locale files (.po, located in Locale/<language>/LC_MESSAGES/default.po) will then be checked into master.
 
-Future planned updated
+Future planned updates
 ----------------------
 - CakePHP 3.0 migration
 - REST API
