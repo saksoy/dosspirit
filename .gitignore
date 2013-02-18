@@ -1,4 +1,12 @@
 /app/tmp
+/app/Config
+/app/webroot/gamefiles
+/app/webroot/images/game/*
+/app/webroot/images/avatar
+/app/webroot/images/mediapool
+/app/webroot/images/news
+/app/webroot/music
+/app/webroot/video
 /plugins
 /vendors
 .DS_Store
